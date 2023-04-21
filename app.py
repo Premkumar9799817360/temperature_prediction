@@ -10,7 +10,7 @@ model = joblib.load("tempreture_prediction.pkl")
 #copy from streamlit for deployment testing
 import streamlit as st
 
-st.session_state['answer'] = ''!
+st.session_state['answer'] = ''
 
 st.write(st.session_state)
 
